@@ -4,7 +4,7 @@ class Vehicule implements Details {
 
     private $matricule;
     private $type;
-    protected $proprietaire;
+    private $proprietaire;
 
     public function __construct($matricule, $type, $proprietaire = null) {
         $this->matricule = $matricule;

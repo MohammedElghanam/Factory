@@ -2,7 +2,7 @@
 
 class Event implements Details {
 
-    protected $type;
+    private $type;
     private $description;
     private $event_time;
 
